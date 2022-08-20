@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pricing-ui';
-
-  innerWidth: number;
-
-  constructor() {
-    // get inner width
-    this.innerWidth = window.innerWidth;
-  }
 }
